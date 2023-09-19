@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    margin-left:auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    height: 100%;
+}
+#top-main {
+
+        background-color: rgba(38, 38, 203, 0.538); /* Màu xanh dương (hoặc màu bạn muốn) */
+        height: 10vh; /* Chiều cao là 20% của chiều cao của trang web (viewport height) */
+    
+}
+#middle-main {
+    display: flex;
+    height: 90vh; /* Chiều cao của #middle-main là 90% của viewport height (trang web) */
+}
+
+#left {
+    flex: 2; /* Tự động mở rộng để lấp đầy chiều cao 10% của #middle-main */
+    background-color: white; /* Màu nền màu vàng cho #left */
+}
+
+#center {
+    flex: 8; /* Tự động mở rộng để lấp đầy chiều cao 90% của #middle-main */
+    background-color: rgb(182, 204, 182); /* Màu nền màu xanh cho #center */
+}
